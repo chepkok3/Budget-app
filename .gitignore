@@ -7,9 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-*
+# Ignore the default PostgreSQL database.
+/db/*.postgresql
+/db/*.postgresql-*
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -33,3 +33,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore Node.js dependencies
+/node_modules
