@@ -10,11 +10,11 @@ class UsersController < ApplicationController
   end
 
   def show
-    #showing a user
+    # showing a user
   end
 
   def edit
-    #editing a user
+    # editing a user
   end
 
   def create

@@ -52,7 +52,7 @@ class ExpensesController < ApplicationController
     @expense.destroy
 
     respond_to do |format|
-      format.html { redirect_to group_path, notice: 'Transaction was successfully deleted }
+      format.html { redirect_to group_path, notice: 'Transaction was successfully deleted' }
       format.json { head :no_content }
     end
   end
