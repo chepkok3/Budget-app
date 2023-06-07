@@ -1,0 +1,223 @@
+body {
+  background-color: rgba(240, 245, 245, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.group-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+  margin: 24px;
+  border-radius: 24px;
+  padding: 12px;
+}
+
+.group-icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 12px;
+}
+
+.group-wrapper-detail {
+  width: 70%;
+}
+
+.group-detail {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  padding-top: 12px;
+}
+
+p.expense-amount {
+  font-weight: bold;
+  padding: 8px;
+}
+
+.total-expenses {
+  font-weight: bold;
+}
+
+h2.group-user-name a {
+  color: #434b54;
+  font-weight: bold;
+}
+
+.date {
+  color: #434b54;
+  font-size: 12px;
+}
+
+.button-field {
+  background-color: #5fb523;
+  width: 100%;
+  height: 80px;
+}
+
+.push-option {
+  padding-top: 15px;
+}
+
+.add-option {
+  border: 2px solid #fff;
+  margin: 4px auto;
+  display: block;
+  width: 80%;
+  background-color: #5fb523;
+  padding: 12px 0;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.total-expenses {
+  background-color: #fff;
+  padding: 24px 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category-form {
+  width: 90%;
+  background-color: #fff;
+  margin: 12px auto;
+  display: block;
+  padding-bottom: 12px;
+  border-radius: 4px;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 4px;
+  text-align: center;
+  display: block;
+}
+
+.form-field {
+  display: block;
+  margin: 0 auto;
+  padding-left: 10%;
+  font-size: 18px;
+}
+
+.category-button {
+  padding: 8px;
+  margin: 12px auto;
+  display: block;
+  border: 2px solid #fff;
+  background-color: #5fb523;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.select-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.transact-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 24px;
+  border-radius: 24px;
+  padding: 12px;
+}
+
+.login-field {
+  width: 80%;
+  height: 40px;
+  padding: 4px;
+  display: block;
+  margin: 12px auto;
+}
+
+.forgot_password {
+  text-align: center;
+  display: block;
+}
+
+.checkbox-field {
+  display: block;
+  margin: 0 10%;
+}
+
+.navbar {
+  background-color: #3778c2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.arrow-link {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  width: 20px;
+}
+
+h2.login {
+  color: #fff;
+  padding-top: 12px;
+}
+
+.login-btn {
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  background: none;
+  padding-top: 14px;
+}
+
+.logout {
+  margin-top: 12px;
+}
+
+.logout-buton {
+  width: 90%;
+  color: #434b54;
+  padding: 14px 0;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+}
+
+.title {
+  padding-top: 70%;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.description {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  padding-bottom: 70%;
+}
+
+.login-button {
+  width: 90%;
+  background-color: #3778c2;
+  color: #fff;
+  padding: 14px 0;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: none;
+}
