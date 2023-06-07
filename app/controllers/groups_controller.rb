@@ -6,7 +6,7 @@ class GroupsController < ApplicationController
     @groups = current_user.groups.includes(:expenses)
     @total_expenses = Expense.where(group_id: @groups.pluck(:id)).sum(:amount)
   end
-  
+
   def splash; end
 
   def show
