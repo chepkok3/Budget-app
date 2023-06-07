@@ -1,14 +1,14 @@
 <section class="section-3">
   <div class="header-wrapper">
     <h1 class="title">
-      Budget Tracker
+      Budget App
     </h1>
         <p class="description">
-      A simple app to track your budget.
+      A user-friendly app to help you track your expenses.
     </p>
-    <div class="button-wrapper">
-      <%= button_to "SIGN IN", new_user_session_path, method: :get, class: '' %>
-      <%= button_to "SIGN UP", new_user_registration_path, method: :get, class: '' %>
     </div>
+    <div class="button-wrapper">
+      <%= button_to "SIGN IN", new_user_session_path, method: :get, class: 'login-button' %>
+      <%= button_to "SIGN UP", new_user_registration_path, method: :get, class: 'logout-buton' %>
   </div>
 </section>
