@@ -1,7 +1,7 @@
-<div class="group-wrapper">
-<div class="group-icon">
-<%= image_tag(group.icon, alt: 'Image Description', class: 'group-icon') %>
+<div class="group_card">
+<div class="group_card_image">
+<%= image_tag(group.icon, alt: 'Image Description', class: 'group_image') %>
 </div>  
-<h2 class="group-name"><%=  group.name %></h2>
-<p class="expense-amount"> $<%= group.expenses.sum(:amount) %> </p> 
+<h2 class=""><%=  group.name %></h2>
+<p class="amount"> $<%= group.expenses.sum(:amount) %> </p> 
 </div>

@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Groups', type: :feature do
   before(:each) do
-    @user = User.create(name: 'Rita Daniel', email: 'rita@gmail.com', password: '123456',
+    @user = User.create(name: 'John Smith', email: 'john@example.com', password: '123456',
                         password_confirmation: '123456', confirmation_token: nil, confirmed_at: Time.now)
     @group = Group.create(name: 'Food', icon: 'icons/abroad.PNG', user_id: @user.id)
     @expense = Expense.create(name: 'Food expense', amount: 10.00, author_id: @user.id)

@@ -1,18 +1,21 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[show edit update destroy]
 
+  # GET /users or /users.json
   def index
     @users = User.all
   end
 
+  # GET /users/new
   def new
     @user = User.new
   end
 
   def edit
-    render 'edit', locals: { user: @user }
+    # Code for editing a user
   end
 
+  # DELETE /users/1 or /users/1.json
   def destroy
     @user.destroy
 
@@ -35,10 +38,13 @@ class UsersController < ApplicationController
     redirect_to splash_path
   end
 
+  # Use callbacks to share common setup or constraints between actions.
+
   def set_user
     @user = current_user
   end
 
+  # Only allow a list of trusted parameters through.
   def user_params
     params.require(:user).permit(:name)
   end
