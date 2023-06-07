@@ -1,12 +1,12 @@
 class GroupsController < ApplicationController
-  before_action :set_group, only: %i[show edit update destroy]
-  load_and_authorize_resource
+  before_action :authenticate_user!, except: [:splash]
+  load_and_authorize_resource except: [:splash]
 
   def index
-    @groups = current_user.groups.all
-    @total_expenses = current_user.groups.joins(:expenses).sum('expenses.amount')
+    @groups = current_user.groups.includes(:expenses)
+    @total_expenses = Expense.where(group_id: @groups.pluck(:id)).sum(:amount)
   end
-
+  
   def splash; end
 
   def show
@@ -31,7 +31,7 @@ class GroupsController < ApplicationController
         File.binwrite(icon_filepath, icon_file.read)
         @group.update(icon: "icons/#{icon_filename}")
       end
-      redirect_to user_groups_path(current_user), notice: 'Successfully created the category'
+      redirect_to user_groups_path(current_user), notice: 'Category was successfully created.'
     else
       render :new, status: :unprocessable_entity
     end
@@ -40,7 +40,7 @@ class GroupsController < ApplicationController
   def update
     respond_to do |format|
       if @group.update(group_params)
-        format.html { redirect_to group_url(@group), notice: 'Successfully updated the category' }
+        format.html { redirect_to group_url(@group), notice: 'Category was successfully updated.' }
         format.json { render :show, status: :ok, location: @group }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -53,7 +53,7 @@ class GroupsController < ApplicationController
     @group.destroy
 
     respond_to do |format|
-      format.html { redirect_to groups_path, notice: 'Succeffully deleted the category' }
+      format.html { redirect_to groups_path, notice: 'Category was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
