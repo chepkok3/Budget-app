@@ -1,11 +1,18 @@
-<section class="section-1">
+<%= render partial: 'shared/nav', locals: {title:'CATEGORIES', symbol:'', url: ''}%>
+
+<section class="section-container">
   <p> <%= notice %></p>
-  <p> Total expenses for <%= current_user.name.titleize %> : $<%=@total_expenses %> </p>
-  
+  <div  class="total-expenses"> 
+  <p class="group-user-name"> Total expenses for <%= current_user.name.titleize %> </p>
+   <p class="total-expenses"> $<%=@total_expenses %> </p>
+  </div>
   <div>
-  <% @groups.each do |group| %>
+  <% @groups.includes(:expenses).each do |group| %>
   <%= render partial: 'shared/group', locals: { group: group } %>
 <%end%>
       </div>
-      <%= button_to 'ADD CATEGORY', new_user_group_path(user_id: current_user.id), method: :get, class: ''%>
+      <div class="button-field">
+      <div class="push-option">
+      <%= button_to 'ADD CATEGORY', new_user_group_path(user_id: current_user.id), method: :get, class: 'add-option'%> </div>
+      </div>
 </section>
