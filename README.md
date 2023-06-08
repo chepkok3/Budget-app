@@ -42,11 +42,11 @@
 - **[Limit access to web app resources based on authorization rules.]**
 
 - Demo Link [Live Demo Link]()
-- Walkthrough[Walkthrough video]()
+- Walkthrough[Walkthrough video](https://www.loom.com/share/6325d2a35e0a4879912277bc1b6b6927)
 
 ## Project Screenshots
 
-![Home page]()
+![Home page](Screenshot 2023-06-07 at 19.41.20.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,6 +146,7 @@ I would like to thank the following: <br> - [Microverse](https://www.microverse.
 - My standup team for the support
 - My family for the support
 - Coding partners for the support
+- [Gregoire Vella](https://www.behance.net/gregoirevella) who is the original author of this [design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

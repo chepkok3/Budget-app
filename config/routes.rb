@@ -14,6 +14,6 @@ Rails.application.routes.draw do
     root 'groups#index', as: :authenticated_root
   end
   unauthenticated do
-    get '/', to: redirect('/splash')
+    root to: redirect('/splash')
   end
 end
