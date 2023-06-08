@@ -8,6 +8,8 @@ body {
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .group_card {
@@ -57,7 +59,6 @@ h2.group_name a {
 }
 
 .button_box {
-  background-color: #5fb523;
   width: 100%;
   height: 80px;
 }
@@ -78,7 +79,7 @@ h2.group_name a {
 }
 
 .total_box {
-  background-color: #fff;
+  background-color: #f5f1f1;
   padding: 24px 12px;
   display: flex;
   flex-direction: row;
@@ -86,6 +87,7 @@ h2.group_name a {
 }
 
 .category_form {
+  border: 2px solid #fff;
   width: 90%;
   background-color: #fff;
   margin: 12px auto;
