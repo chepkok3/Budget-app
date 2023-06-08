@@ -187,6 +187,9 @@ h2.login {
 
 .logout {
   margin-top: 12px;
+  background-color: #3778c2;
+  color: #fff;
+  border: none;
 }
 
 .login_splash {
@@ -210,17 +213,13 @@ h2.login {
   border-radius: 4px;
 }
 
-.splash_p {
-  text-align: center;
-  justify-content: center;
-  display: block;
-  padding-bottom: 20%;
-}
-
 .splash_name {
   padding-top: 10%;
+  padding-bottom: 20%;
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-size: 16px;
+  font-style: italic;
 }
 
 .fixed-bottom {
