@@ -1,4 +1,5 @@
-<%= render partial: 'shared/nav', locals: {title:'TRANSACTION', symbol:'←', url: user_groups_path}%>
+<%= render partial: 'shared/nav', locals: {title:'TRANSACTION', symbol:'←',  url: root_path } %>
+
 <div class="category_form">
 <%= form_with(model: expense, url: user_group_expenses_path) do |form| %>
   <div class="transaction">
