@@ -18,7 +18,6 @@ class ExpensesController < ApplicationController
     @expense = Expense.new(expense_params)
     @expense.author_id = current_user.id
 
-
     @group = Group.find(params[:expense][:group_id])
 
     respond_to do |format|
