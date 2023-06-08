@@ -1,36 +1,29 @@
 class ExpensesController < ApplicationController
   before_action :set_expense, only: %i[show edit update destroy]
 
-  # GET /expenses or /expenses.json
   def index
     @expenses = Expense.all
   end
 
-  # GET /expenses/1 or /expenses/1.json
   def show; end
 
-  # GET /expenses/new
   def new
     @expense = Expense.new
     @group = current_user.groups.all
   end
 
-  # GET /expenses/1/edit
   def edit; end
 
-  # POST /expenses or /expenses.json
   def create
     @expense = Expense.new(expense_params)
     @expense.author_id = current_user.id
 
-    # Find the group based on the provided group_id
 
     @group = Group.find(params[:expense][:group_id])
 
     respond_to do |format|
       if @expense.save
 
-        # Create a new ExpensesGroup record to associate the expense with the group
         ExpensesGroup.create(group: @group, expense: @expense)
 
         format.html do
@@ -44,7 +37,6 @@ class ExpensesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /expenses/1 or /expenses/1.json
   def update
     respond_to do |format|
       if @expense.update(expense_params)
@@ -57,7 +49,6 @@ class ExpensesController < ApplicationController
     end
   end
 
-  # DELETE /expenses/1 or /expenses/1.json
   def destroy
     @expense.destroy
 
@@ -69,15 +60,11 @@ class ExpensesController < ApplicationController
 
   private
 
-  # Use callbacks to share common setup or constraints between actions.
   def set_expense
     @expense = Expense.find(params[:id])
   end
 
-  # Only allow a list of trusted parameters through.
   def expense_params
-    #   params.require(:expense).permit(:name, :amount, :group_id)
-    #   params.require(:expense).permit(:name, :amount, :group_id, :user_id)
     params.require(:expense).permit(:name, :amount, :group_id).merge(author_id: current_user.id)
   end
 end
