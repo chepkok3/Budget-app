@@ -50,7 +50,7 @@
 
 - [Live Demo Link](https://budget-app-2021.herokuapp.com/)
 
-- Walkthrough[Walkthrough video](https://www.loom.com/share/6325d2a35e0a4879912277bc1b6b6927)
+- Walkthrough [Walkthrough video](https://www.loom.com/share/6325d2a35e0a4879912277bc1b6b6927)
 
 ## Project Screenshots
 
@@ -144,8 +144,9 @@ If you like this project please leave a STAR on [GitHub](https://github.com/chep
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the following: <br> - [Microverse](https://www.microverse.org/) for the opportunity.<br> - My coding partners who kept my morale up!
-
+I would like to thank the following: 
+<br> - [Microverse](https://www.microverse.org/) for the opportunity.<br> 
+- My coding partners who kept my morale up!
 - My standup team for the support
 - My family for the support
 - Coding partners for the support
