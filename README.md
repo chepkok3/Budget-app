@@ -44,10 +44,6 @@
 - Demo Link [Live Demo Link]()
 - Walkthrough[Walkthrough video]()
 
-## Project Screenshots
-
-Home page <img width="1106" alt="Screenshot 2023-06-07 at 19 41 20" src="https://github.com/chepkok3/Budget-app/assets/78428936/24a2fe20-101a-4abf-bd71-43f64eb2ce07">
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
