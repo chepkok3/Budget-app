@@ -48,9 +48,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/cb72fd8b96684992971a976d2f530d45)
+- [Live Demo Link]()
 
-- Walkthrough [Walkthrough video](https://www.loom.com/share/6325d2a35e0a4879912277bc1b6b6927)
+- Walkthrough [Walkthrough video](https://www.loom.com/share/cb72fd8b96684992971a976d2f530d45)
 
 ## Project Screenshots
 
