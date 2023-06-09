@@ -54,7 +54,8 @@
 
 ## Project Screenshots
 
-![Home page] <img width="1106" alt="Screenshot 2023-06-07 at 19 41 20" src="https://github.com/chepkok3/Budget-app/assets/78428936/35389ae6-6a4c-40de-957c-96c3479ed164">
+- Home page <img width="1242" alt="Screenshot 2023-06-09 at 15 45 18" src="https://github.com/chepkok3/Budget-app/assets/78428936/361fbc1c-b332-4d1c-882b-98e1cc142a30">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
