@@ -258,14 +258,14 @@ DEPENDENCIES
   cancancan
   capybara
   debug
-  devise (= 4.9.2)
-  factory_bot (= 6.2.1)
-  factory_bot_rails (= 6.2.0)
+  devise (>= 4.9.2)
+  factory_bot (>= 6.2.1)
+  factory_bot_rails (>= 6.2.0)
   importmap-rails
   jbuilder
   pg (~> 1.1)
   puma (~> 5.0)
-  racc (= 1.6.2)
+  racc (>= 1.6.2)
   rails (~> 7.0.5)
   rails-controller-testing
   rspec-rails
