@@ -48,14 +48,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://budget-app-o7wg.onrender.com)
+- [Live Demo Link](https://budget-app-gb57.onrender.com)
 
 - Walkthrough [Walkthrough video](https://www.loom.com/share/cb72fd8b96684992971a976d2f530d45)
 
 ## Project Screenshots
 
 - Home page <img width="1242" alt="Screenshot 2023-06-09 at 15 45 18" src="https://github.com/chepkok3/Budget-app/assets/78428936/361fbc1c-b332-4d1c-882b-98e1cc142a30">
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
