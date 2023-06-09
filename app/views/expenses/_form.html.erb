@@ -15,9 +15,9 @@
   </div><br>
 
   <div class="form_divas">
-    <label class="name_label">Select category</label>
-    <%= form.select :group_id, @group.all.collect {|u| [u.name.capitalize, u.id] }, class:'' %>
-  </div>
+  <label class="name_label">Select category</label>
+  <%= form.select :group_id, @group.all.collect {|u| [u.name.capitalize, u.id] }, class:'' %>
+</div>
 
   <div class=''>
     <%= form.submit "Add transaction", class:"category_button" %>
