@@ -179,10 +179,10 @@ h2.login {
 
 .login-btn {
   color: #fff;
-  font-size: 18px;
   border: none;
   background: none;
   padding-top: 14px;
+  text-transform: uppercase;
 }
 
 .logout {
@@ -190,6 +190,14 @@ h2.login {
   background-color: #3778c2;
   color: #fff;
   border: none;
+}
+
+.logout button {
+  background-color: #3778c2;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .login_splash {
