@@ -48,13 +48,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://budget-app-2021.herokuapp.com/)
+- [Live Demo Link]()
 
-- Walkthrough [Walkthrough video](https://www.loom.com/share/6325d2a35e0a4879912277bc1b6b6927)
+- Walkthrough [Walkthrough video](https://www.loom.com/share/cb72fd8b96684992971a976d2f530d45)
 
 ## Project Screenshots
 
-![Home page] <img width="1106" alt="Screenshot 2023-06-07 at 19 41 20" src="https://github.com/chepkok3/Budget-app/assets/78428936/35389ae6-6a4c-40de-957c-96c3479ed164">
+- Home page <img width="1242" alt="Screenshot 2023-06-09 at 15 45 18" src="https://github.com/chepkok3/Budget-app/assets/78428936/361fbc1c-b332-4d1c-882b-98e1cc142a30">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
