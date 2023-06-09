@@ -1,0 +1,10 @@
+branches:
+  - name: final
+    buildCommand: |
+      echo "Building final branch..."
+      bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin
+      bundle exec rails db:migrate
+    publishCommand: |
+      echo "Publishing final branch..."
+      bundle exec rails assets:precompile
+      bundle exec rails restart
