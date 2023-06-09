@@ -56,7 +56,6 @@
 
 ![Home page] <img width="1106" alt="Screenshot 2023-06-07 at 19 41 20" src="https://github.com/chepkok3/Budget-app/assets/78428936/35389ae6-6a4c-40de-957c-96c3479ed164">
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -144,8 +143,9 @@ If you like this project please leave a STAR on [GitHub](https://github.com/chep
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the following: 
-<br> - [Microverse](https://www.microverse.org/) for the opportunity.<br> 
+I would like to thank the following:
+
+- [Microverse](https://www.microverse.org/) for the opportunity.
 - My coding partners who kept my morale up!
 - My standup team for the support
 - My family for the support
