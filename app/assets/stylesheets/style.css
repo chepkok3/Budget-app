@@ -18,8 +18,8 @@ body {
   justify-content: space-between;
   background: white;
   margin: 24px;
-  border-radius: 24px;
   padding: 12px;
+  font-weight: 900;
 }
 
 .group_image {
