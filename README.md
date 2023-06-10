@@ -18,14 +18,13 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 # 📖 [BUDGET-APP] <a name="react"></a>
 
-> **[Budget-app]** is a budget management application using Ruby on Rails that allows users to track their expenses and manage their budget.
+## Budget-app <a name="built-with"></a> is a budget management application using Ruby on Rails that allows users to track their expenses and manage their budget.
 
-## 🛠 Built With <a name="built-with">HTML, CSS, JavaScript, React & Redux</a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -121,7 +120,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> ** Add a Calculator ** > ** Style the UI **
+- Transitions and/or animations.
+- Implement the left side menu to improve the navigability of the app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
