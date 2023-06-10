@@ -1,6 +1,6 @@
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Content
+# 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://budget-app-gb57.onrender.com)
+- [Live Demo Link](https://budget-app-nkic.onrender.com)
 
 - Walkthrough [Walkthrough video](https://www.loom.com/share/cb72fd8b96684992971a976d2f530d45)
 
