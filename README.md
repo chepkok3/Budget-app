@@ -6,11 +6,13 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -18,21 +20,21 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 [BUDGET-APP] <a name="react"></a>
 
-# 📖 [BUDGET-APP] <a name="about-project"></a>
-
-**[Budget-app]** is a budget management application using Ruby on Rails that allows users to track their expenses and manage their budget.
+## Budget-app <a name="built-with"></a> is a budget management application using Ruby on Rails that allows users to track their expenses and manage their budget.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- <a href="https://www.ruby-lang.org/es/">ROR</a>
+<details>
+  <ul>
+    - <a href="https://www.ruby-lang.org/es/">ROR</a>
 - <a href="https://www.postgresql.org/">Postgresql</a>
 - <a href="https://rspec.info/">Rspec</a>
-
-<!-- Features -->
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
@@ -41,16 +43,19 @@
 - **[Users can create a category.]**
 - **[Limit access to web app resources based on authorization rules.]**
 
-- Demo Link [Live Demo Link]()
-- Walkthrough[Walkthrough video]()
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://budget-app-nkic.onrender.com)
+
+- Walkthrough [Walkthrough video](https://www.loom.com/share/cb72fd8b96684992971a976d2f530d45)
 
 ## Project Screenshots
 
-![Home page]()
+- Home page <img width="1242" alt="Screenshot 2023-06-09 at 15 45 18" src="https://github.com/chepkok3/Budget-app/assets/78428936/361fbc1c-b332-4d1c-882b-98e1cc142a30">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -58,21 +63,26 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need the following installed in your local system
+In order to run this project you need:
 
-<ul>
-<li>Ruby</li>
-<li>Git CLI</li>
-<li>Github account</li>
-</ul>
+```sh
+- VSCode or any other IDE.
+- browser to deploy.
+- GitHub/Git.
+- Ruby.
+- Rails.
+- Postgresql.
+- Rspec.
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-````sh
+```sh
   cd my-folder
   git clone https://github.com/chepkok3/Budget-app.git
+```
 
 ### Install
 
@@ -81,14 +91,14 @@ Install this project with:
 ```sh
   cd Budget-app
   bundle install
-````
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
 ```sh
-  rails server
+  rails s
 ```
 
 ### Run tests
@@ -97,8 +107,6 @@ To run the project, execute the following command:
 - Type `npx stylelint "**/*.{css,scss}"` to run for stylelint errors
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHOR -->
 
 ## 👥 Author <a name="authors"></a>
 
@@ -110,16 +118,12 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add a Calculator]**
-- [ ] **[Style the UI]**
+- Transitions and/or animations.
+- Implement the left side menu to improve the navigability of the app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -128,8 +132,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/chepkok3/Budget-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -141,11 +143,14 @@ If you like this project please leave a STAR on [GitHub](https://github.com/chep
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the following: <br> - [Microverse](https://www.microverse.org/) for the opportunity.<br> - My coding partners who kept my morale up!
+I would like to thank the following:
 
+- [Microverse](https://www.microverse.org/) for the opportunity.
+- My coding partners who kept my morale up!
 - My standup team for the support
 - My family for the support
 - Coding partners for the support
+- [Gregoire Vella](https://www.behance.net/gregoirevella) who is the original author of this [design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

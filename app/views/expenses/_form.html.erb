@@ -1,26 +1,27 @@
-<div class="expense-form">
+<%= render partial: 'shared/nav', locals: {title:'TRANSACTION', symbol:'←',  url: root_path } %>
+
+<div class="category_form">
 <%= form_with(model: expense, url: user_group_expenses_path) do |form| %>
-  <div class="form-header">
-    <h2 class="form-title">Add expense</h2>
-  </div>
+  <div class="transaction">
+    <h3 class="">Add Transaction</h3>
+  
 
-  <div class="form-group">
-    <%= form.label :name, class: "form-label" %>
-    <%= form.text_field :name, class: "form-input" %>
-  </div>
+  <div class="form_div">
+    <%= form.text_field :name, placeholder: "Transaction Name", class: "login-field" %>
+  </div><br>
 
-  <div class='field p-4'>
-    <%= form.label :amount, class: '' %>
-    <%= form.text_field :amount, class:'' %>
-  </div>
+  <div class="form_div">
+    <%= form.text_field :amount, placeholder: "Enter Amount", class: "login-field" %>
+  </div><br>
 
-  <div class= "form-group">
-    <label class="form-label">Select a category</label>
-    <%= form.select :group_id, @group.all.collect {|u| [u.name.capitalize, u.id] }, class:'' %>
-  </div>
+  <div class="form_divas">
+  <label class="name_label">Select category</label>
+  <%= form.select :group_id, @group.all.collect {|u| [u.name.capitalize, u.id] }, class:'' %>
+</div>
 
-  <div class= "form-group">
-    <%= form.submit "Add transaction", class: '' %>
+  <div class=''>
+    <%= form.submit "Add transaction", class:"category_button" %>
+  </div>
   </div>
 <% end %>
 </div>

@@ -1,0 +1,21 @@
+databases:
+  - name: BudgetAppDB
+    databaseName: budget_app_db
+    user: budget_app_user
+
+services:
+  - type: web
+    name: BudgetApp
+    runtime: ruby
+    buildCommand: |
+      bundle config --delete frozen
+      bundle install --clean
+      ./bin/render-build.sh
+    startCommand: 'bundle exec puma -C config/puma.rb'
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: BudgetAppDB
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
